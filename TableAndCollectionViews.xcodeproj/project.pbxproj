@@ -13,6 +13,8 @@
 		FDF88DAF2708EC7F0057BD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DAD2708EC7F0057BD13 /* Main.storyboard */; };
 		FDF88DB12708EC810057BD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DB02708EC810057BD13 /* Assets.xcassets */; };
 		FDF88DB42708EC810057BD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF88DB22708EC810057BD13 /* LaunchScreen.storyboard */; };
+		FDF88DD02708F0A60057BD13 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF88DCF2708F0A60057BD13 /* TableViewController.swift */; };
+		FDF88DD32708F0B30057BD13 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF88DD22708F0B30057BD13 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDF88DB02708EC810057BD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF88DB32708EC810057BD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF88DB52708EC810057BD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF88DCF2708F0A60057BD13 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FDF88DD22708F0B30057BD13 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FDF88DB02708EC810057BD13 /* Assets.xcassets */,
 				FDF88DB22708EC810057BD13 /* LaunchScreen.storyboard */,
 				FDF88DB52708EC810057BD13 /* Info.plist */,
+				FDF88DCF2708F0A60057BD13 /* TableViewController.swift */,
+				FDF88DD22708F0B30057BD13 /* CollectionViewController.swift */,
 			);
 			path = TableAndCollectionViews;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				FDF88DAC2708EC7F0057BD13 /* ViewController.swift in Sources */,
 				FDF88DA82708EC7F0057BD13 /* AppDelegate.swift in Sources */,
 				FDF88DAA2708EC7F0057BD13 /* SceneDelegate.swift in Sources */,
+				FDF88DD02708F0A60057BD13 /* TableViewController.swift in Sources */,
+				FDF88DD32708F0B30057BD13 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
